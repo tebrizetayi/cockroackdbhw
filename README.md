@@ -1,2 +1,2 @@
 # cockroackdbhw
-Application that creates database records using Cockroach  database.
+Simple application that creates database records using Cockroach  database.
