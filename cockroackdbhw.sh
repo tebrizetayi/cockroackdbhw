@@ -1,4 +1,4 @@
-#docker network create -d bridge roachnet
+docker network create -d bridge roachnet
 docker container stop roach1
 docker container rm roach1
 docker run -d \
@@ -36,4 +36,6 @@ cockroachdb/cockroach:v20.1.6 start \
 
 
 #docker exec -it roach1 ./cockroach init --insecure
+#docker exec -it roach1 ./cockroach sql --insecure
+#CREATE DATABASE ACCOUNT
 
